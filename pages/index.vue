@@ -4,7 +4,7 @@
       <div class="message">
         Learn and practice
         <br />how to code
-        <button class="get-started">Get started</button>
+        <button class="button">Get started</button>
       </div>
       <img
         src="https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
@@ -41,14 +41,24 @@ img {
   margin: 0.3em;
 }
 
-.get-started {
-  margin: 1em 2em 2em 0;
-  padding: 0.5em 2em;
-  align-self: flex-start;
-  font-size: 25px;
-  border-radius: 30px;
-  background: black;
+.button {
+  cursor: pointer;
+  background-color: black;
   color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 0.6em 1.5em;
+  font-size: 0.3em;
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 .orange {
