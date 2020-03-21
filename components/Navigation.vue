@@ -1,7 +1,7 @@
 <template>
   <div class="navigation">
-    <nuxt-link to="home" class="link">HOME</nuxt-link>
-    <nuxt-link to="index" class="link">LOG IN</nuxt-link>
+    <nuxt-link to="index" class="link">HOME</nuxt-link>
+    <nuxt-link to="login" class="link">LOG IN</nuxt-link>
     <nuxt-link to="about" class="link">KNOW ABOUT THE PROJECT</nuxt-link>
     <nuxt-link to="challenges" class="link">CHALLENGES</nuxt-link>
   </div>
