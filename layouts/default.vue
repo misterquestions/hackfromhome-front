@@ -1,9 +1,18 @@
+import
 <template>
   <div>
+    <navigation />
     <nuxt />
   </div>
 </template>
-
+<script>
+import Navigation from '~/components/Navigation'
+export default {
+  components: {
+    Navigation
+  }
+}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

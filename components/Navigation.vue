@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div class="navigation">
+    <nuxt-link to="home" class="link">HOME</nuxt-link>
+    <nuxt-link to="login" class="link">LOG IN</nuxt-link>
+    <nuxt-link to="about" class="link">KNOW ABOUT THE PROJECT</nuxt-link>
+  </div>
 </template>
 
 <style>
@@ -14,6 +18,7 @@
 .link {
   padding: 0 3em;
   color: #adb5bd;
+  transition: color 200ms ease-in-out;
 }
 
 .link:hover {
@@ -21,9 +26,10 @@
   color: black;
 }
 
-.link.active {
+a.nuxt-link-active {
   color: black;
 }
+
 .download {
   margin-left: auto;
   margin-right: 2em;
