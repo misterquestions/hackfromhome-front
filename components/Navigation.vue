@@ -3,13 +3,15 @@
     <nuxt-link to="home" class="link">HOME</nuxt-link>
     <nuxt-link to="login" class="link">LOG IN</nuxt-link>
     <nuxt-link to="about" class="link">KNOW ABOUT THE PROJECT</nuxt-link>
+    <nuxt-link to="challenges" class="link">CHALLENGES</nuxt-link>
   </div>
 </template>
 
 <style>
 .navigation {
-  margin-top: 1em;
+  padding-top: 4em;
   margin-left: 20%;
+  margin-bottom: 2em;
   position: relative;
   display: flex;
   justify-content: flex-start;
