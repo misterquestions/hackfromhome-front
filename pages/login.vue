@@ -23,7 +23,7 @@
         <input id="pass" type="password" name="pass" />
         <div class="button-container">
           <button class="button">Login</button>
-          <button class="button">Register</button>
+          <nuxt-link to="register" class="button">Register</nuxt-link>
         </div>
       </form>
     </div>
@@ -104,6 +104,7 @@ span {
 }
 
 .button {
+  cursor: pointer;
   background-color: black;
   color: white;
   border: none;
@@ -111,6 +112,7 @@ span {
   padding: 0.6em 1.5em;
   font-size: 1.3em;
   transition: all 200ms ease-in-out;
+  text-decoration: none;
 }
 
 .button:hover {
